@@ -60,6 +60,10 @@
       background-color: var(--lightbackgroundcolor);
       color: var(--accentcolor);
     }
+
+    .topnav a i {
+        font-size: 24px;
+    }
   
   
   h2 {
