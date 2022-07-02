@@ -1,0 +1,76 @@
+/*Colour Picker: https://imagecolorpicker.com/color-code/C992e0*/
+:root {
+    --maincolor: #C992e0;
+    --lightermaincolor: #dfbeec;
+    --accentcolor: #a9e092;
+    --headercolor: #161417;
+    --backgroundcolor: #161417;
+    --lightbackgroundcolor: #433f45;
+    --bordercolor: #726f73 ;
+  }
+  
+  body {
+      background-color: var(--backgroundcolor);
+      margin: 0;
+  
+  }
+  
+  header {
+    background-color: var(--headercolor);
+  }
+  
+  .title a h1 {
+      text-align:center;
+      color: #e4c9f0;
+      border-color: var(--bordercolor);
+      font-family: Helvetica, sans-serif;
+      font-style: normal;
+      text-decoration: none;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 50px;
+  }
+  
+  .title a {
+    text-decoration: none;
+  }
+  
+  /* The navbar container */
+  .topnav {
+      overflow: hidden;
+      border-top: solid;
+      border-color: var(--bordercolor);
+      padding-bottom: 20px;
+      padding-top: 20px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Navbar links */
+    .topnav a {
+      color: var(--maincolor);
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Links - change color on hover */
+    .topnav a:hover {
+      background-color: var(--lightbackgroundcolor);
+      color: var(--accentcolor);
+    }
+  
+  
+  h2 {
+      text-align: left;
+      margin-left: 10px;
+      color: violet;
+  }
+  
+  p {
+      text-align: left;
+      margin-left: 20px;
+      color: white;
+      font-family: Georgia, serif
+  }
