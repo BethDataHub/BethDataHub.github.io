@@ -18,6 +18,7 @@
   
   header {
     background-color: var(--headercolor);
+    padding-bottom: 50px;
   }
   
   .title a h1 {
@@ -80,17 +81,25 @@
   }
 
 
-
+questions {
+  text-align: -webkit-center;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
   .quiz {
     overflow: hidden;
     background-color: var(--quizbackground);
     padding: 20px;
     width: fit-content;
     margin-left: 20px;
+    display: inline-block;
+    text-align: left
+    
 }
 
   .quiz form {
-      padding-top: 15px
+      padding-top: 15px;
   }
 
   .quiz label {
