@@ -1,4 +1,7 @@
 /*Colour Picker: https://imagecolorpicker.com/color-code/C992e0*/
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
 :root {
     --maincolor: #C992e0;
     --lightermaincolor: #dfbeec;
@@ -9,10 +12,13 @@
     --bordercolor: #726f73 ;
     --quizbackground: #2d2c2e;
   }
+
+
   
   body {
       background-color: var(--backgroundcolor);
       margin: 0;
+      height: 100vh;
   
   }
   
@@ -28,10 +34,9 @@
       font-family: Helvetica, sans-serif;
       font-style: normal;
       text-decoration: none;
+      padding-top: 20px;
       margin-top: 0;
       margin-bottom: 0;
-      padding-top: 15px;
-      padding-bottom: 15px;
       font-size: 50px;
   }
   
@@ -44,7 +49,6 @@
       overflow: hidden;
       border-top: solid;
       border-color: var(--bordercolor);
-      padding-bottom: 20px;
       padding-top: 20px;
       width: 100%;
       text-align: center;
@@ -104,6 +108,7 @@ questions {
   .quiz label {
     color: var(--lightermaincolor);
     padding-left: 5px;
+    font-family: Georgia, serif
   }
 
   .quiz input[type='radio']:after {
