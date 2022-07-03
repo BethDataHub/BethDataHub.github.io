@@ -13,6 +13,9 @@
     --quizbackground: #2d2c2e;
   }
 
+  html {
+    background-color: var(--backgroundcolor);
+  }
 
   
   body {
