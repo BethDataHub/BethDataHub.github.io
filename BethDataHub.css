@@ -114,47 +114,11 @@ questions {
     font-family: Georgia, serif
   }
 
-  .quiz input[type='radio']:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
-    position: relative;
-    background-color: #d1d3d1;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
-    align-items: center;
+  .quiz input[type='radio'] {
+    accent-color: #ee0d1f;
   }
-
-  .quiz input[type='radio']:checked:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
-    position: relative;
-    background-color: #e09299;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
-  }
-
-  .correct input[type='radio']:checked:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
-    position: relative;
-    background-color: #88ff72;
-    content: '';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
+  .correct input[type='radio'] {
+    accent-color: #88ff72;
   }
 
   .quiz qtitle {
