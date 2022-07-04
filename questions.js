@@ -1,70 +1,115 @@
 var questions = [
-  {
-    qtitle:"Which of the following is the correct extension of the Python file?",
-    qname:"file_type",
-    qanswers:[
-      {
-        answer:".python",
-        correct:false
-      },
-      {
-        answer:".pl",
-        correct:false
-      },
-      {
-        answer:".py",
-        correct:true
-      },
-      {
-        answer: ".p",
-        correct:false
-      }
-    ]
-  },
-  {
-    qtitle:"Who developed the Python language?",
-    qname:"python_developer",
-    qanswers:[
-      {
-        answer:"Zim Den",
-        correct:false
-      },
-      {
-        answer:"Guido van Rossum",
-        correct:true
-      },
-      {
-        answer:"Niene Stom",
-        correct:false
-      },
-      {
-        answer: "Wick van Rossum",
-        correct:false
-      }
-    ]
-  },
-  {
-    qtitle:"What is a correct syntax to output \"Hello World\" in Python?",
-    qname:"print_syntax",
-    qanswers:[
-      {
-        answer:"echo(\"Hello World\")",
-        correct:false
-      },
-      {
-        answer:"print(\"Hello World\")",
-        correct:true
-      },
-      {
-        answer:"show(\"Hello World\")",
-        correct:false
-      },
-      {
-        answer: "output(\"Hello World\")",
-        correct:false
-      }
-    ]
-  }
+    {
+        qtitle:"What is the output of SELECT LEN('SQL Server')?",
+        qname:"sql_output",
+        qanswers:[
+          {
+            answer:"10",
+            correct:true
+          },
+          {
+            answer:"NULL",
+            correct:false
+          },
+          {
+            answer:"12",
+            correct:false
+          },
+          {
+            answer: "FALSE",
+            correct:false
+          }
+        ]
+     },
+     
+     {
+        qtitle:"What is the output of SELECT SUBSTRING('SUBSTRING',3,5)?",
+        qname:"sql_output",
+        qanswers:[
+          {
+            answer:"BS",
+            correct:false
+          },
+          {
+            answer:"BSTRI",
+            correct:true
+          },
+          {
+            answer:"Error",
+            correct:false
+          },
+          {
+            answer: "BST",
+            correct:false
+          }
+        ]
+     },
+     {
+        qtitle:"What is the output of SELECT CONCAT('This','is','a','string')?",
+        qname:"sql_output",
+        qanswers:[
+          {
+            answer:"This,is,a,string",
+            correct:false
+          },
+          {
+            answer:"This is a string",
+            correct:false
+          },
+          {
+            answer:"Error",
+            correct:false
+          },
+          {
+            answer: "Thisisastring",
+            correct:true
+          }
+        ]
+     },
+     {
+        qtitle:"What is the output of SELECT REPLACE('REPLACE',P,A)?",
+        qname:"sql_output",
+        qanswers:[
+          {
+            answer:"REPLACE",
+            correct:false
+          },
+          {
+            answer:"REALACE",
+            correct:false
+          },
+          {
+            answer:"Error",
+            correct:true
+          },
+          {
+            answer: "REPLPCE",
+            correct: false
+          }
+        ]
+     },
+     {
+        qtitle:"What is the output of SELECT LEFT('LEFT Function',3)?",
+        qname:"sql_output",
+        qanswers:[
+          {
+            answer:"ion",
+            correct:false
+          },
+          {
+            answer:"LEFT",
+            correct:false
+          },
+          {
+            answer:"FALSE",
+            correct:false
+          },
+          {
+            answer: "LEF",
+            correct: true
+          }
+        ]
+     }
 ]
 
 var questionselement = document.getElementById("questions")
