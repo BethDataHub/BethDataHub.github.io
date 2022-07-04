@@ -1,0 +1,24 @@
+[
+    {
+      "qtitle":"Which of the following is the correct extension of the Python file?",
+      "qname":"file_type",
+      "qanswers":[
+        {
+          "answer":".python",
+          "correct":false
+        },
+        {
+          "answer":".pl",
+          "correct":false
+        },
+        {
+          "answer":".py",
+          "correct":true
+        },
+        {
+          "answer": ".p",
+          "correct":false
+        }
+      ]
+    }
+  ]
