@@ -1,5 +1,49 @@
 var questions = [
     {
+        qtitle:"Which file format should you use for JSON with timestamps?",
+        qname:"sql_output",
+        qanswers:[
+          {
+            answer:"avro",
+            correct:true
+          },
+          {
+            answer:"parquet",
+            correct:false
+          },
+          {
+            answer:"csv",
+            correct:false
+          },
+          {
+            answer: "tsv",
+            correct:false
+          }
+        ]
+     },
+    {
+        qtitle:"Which of these is a columnar-storage file format?",
+        qname:"file_format",
+        qanswers:[
+          {
+            answer:"avro",
+            correct:false
+          },
+          {
+            answer:"parquet",
+            correct:true
+          },
+          {
+            answer:"csv",
+            correct:false
+          },
+          {
+            answer: "tsv",
+            correct:false
+          }
+        ]
+     },
+    {
         qtitle:"What is the output of SELECT LEN('SQL Server')?",
         qname:"sql_output",
         qanswers:[
