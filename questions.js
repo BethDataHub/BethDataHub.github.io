@@ -5,7 +5,7 @@ var questions = [
         qanswers:[
           {
             answer:"avro",
-            correct:true
+            correct:false
           },
           {
             answer:"parquet",
