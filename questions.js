@@ -1,7 +1,29 @@
 var questions = [
     {
-        qtitle:"Which file format should you use for JSON with timestamps?",
+        qtitle:"Which file format should you us when passing data to Excel from a SQL database?",
         qname:"sql_output",
+        qanswers:[
+          {
+            answer:"avro",
+            correct:true
+          },
+          {
+            answer:"parquet",
+            correct:false
+          },
+          {
+            answer:"csv",
+            correct:true
+          },
+          {
+            answer: "exe",
+            correct:false
+          }
+        ]
+     },
+    {
+        qtitle:"Which file format should you use for JSON with timestamps?",
+        qname:"file_format",
         qanswers:[
           {
             answer:"avro",
