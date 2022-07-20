@@ -1,7 +1,7 @@
 var questions = [
     {
         qtitle:"Which file format should you use when passing data to Excel from a SQL database?",
-        qname:"sql_output",
+        qname:"file_format",
         qanswers:[
           {
             answer:"avro",
