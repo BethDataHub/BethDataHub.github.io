@@ -307,7 +307,7 @@ var questions = [
           correct: false
         }
       ]
-    },
+      },
      {
       qtitle:"What does CTE stand for?",
       qname:"acronym",
@@ -329,7 +329,7 @@ var questions = [
           correct: false
         }
       ]
-    },
+      },
      {
       qtitle:"What does ETL stand for?",
       qname:"acronym",
@@ -351,29 +351,29 @@ var questions = [
           correct: true
         }
       ]
-   },
-  {
-    qtitle:"What does DDL stand for?",
-    qname:"acronym",
-    qanswers:[
-      {
-        answer:"Data derivation language",
-        correct:false
-      },
-      {
-        answer:"Data definition language",
-        correct:true
-      },
-      {
-        answer:"Dynamic data language",
-        correct:false
-      },
-      {
-        answer: "Detailed data language",
-        correct: false
-      }
-    ]
-  },
+     },
+     {
+       qtitle:"What does DDL stand for?",
+       qname:"acronym",
+       qanswers:[
+         {
+           answer:"Data derivation language",
+           correct:false
+         },
+         {
+           answer:"Data definition language",
+           correct:true
+         },
+         {
+           answer:"Dynamic data language",
+           correct:false
+         },
+         {
+           answer: "Detailed data language",
+           correct: false
+         }
+       ]
+     },
      {
       qtitle:"What does DDL stand for?",
       qname:"acronym",
@@ -395,7 +395,7 @@ var questions = [
           correct: false
         }
       ]
-   },
+     },
      {
       qtitle:"What does SQL stand for?",
       qname:"acronym",
@@ -417,7 +417,7 @@ var questions = [
           correct: true
         }
       ]
-   }
+     }
 ]
 
 var questionselement = document.getElementById("questions")
