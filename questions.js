@@ -87,6 +87,94 @@ var questions = [
           }
         ]
      },
+     {
+      qtitle:"Which role would allow a user to execute SELECT statements?",
+      qname:"sql_permissions",
+      qanswers:[
+        {
+          answer:"db_datauser",
+          correct:false
+        },
+        {
+          answer:"db_datawriter",
+          correct:false
+        },
+        {
+          answer:"db_datareader",
+          correct:true
+        },
+        {
+          answer: "db_accessadmin",
+          correct:false
+        }
+      ]
+   },
+     {
+      qtitle:"Which database role allows you to execute CREATE TABLE statements?",
+      qname:"sql_permissions",
+      qanswers:[
+        {
+          answer:"db_owner",
+          correct:false
+        },
+        {
+          answer:"db_accessadmin",
+          correct:false
+        },
+        {
+          answer:"db_datawriter",
+          correct:false
+        },
+        {
+          answer: "db_ddladmin",
+          correct:true
+        }
+      ]
+   },
+     {
+      qtitle:"A user needs to be able to execute DBCC CHECKDB on the acme database, which role should you grant them?",
+      qname:"sql_permissions",
+      qanswers:[
+        {
+          answer:"serveradmin",
+          correct:false
+        },
+        {
+          answer:"sysadmin",
+          correct:false
+        },
+        {
+          answer:"db_owner on master database",
+          correct:false
+        },
+        {
+          answer: "db_owner on acme database",
+          correct:true
+        }
+      ]
+   },
+     {
+      qtitle:"In order to have access to SQL Agent, users need to be granted a SQLAgent* role on which database?",
+      qname:"sql_permissions",
+      qanswers:[
+        {
+          answer:"msdb",
+          correct:true
+        },
+        {
+          answer:"master",
+          correct:false
+        },
+        {
+          answer:"sqlagent",
+          correct:false
+        },
+        {
+          answer: "sqlservices",
+          correct:false
+        }
+      ]
+   },
     {
         qtitle:"What is the output of SELECT LEN('SQL Server')?",
         qname:"sql_output",
