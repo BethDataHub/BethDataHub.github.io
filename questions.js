@@ -1,5 +1,27 @@
 var questions = [
     {
+        qtitle:"Which file type would you use to perform write operations on all columns of your data?",
+        qname:"file_format",
+        qanswers:[
+          {
+            answer:"avro",
+            correct:true
+          },
+          {
+            answer:"parquet",
+            correct:false
+          },
+          {
+            answer:"csv",
+            correct:false
+          },
+          {
+            answer: "exe",
+            correct:false
+          }
+        ]
+     },
+    {
         qtitle:"Which file format should you use when passing data to Excel from a SQL database?",
         qname:"file_format",
         qanswers:[
