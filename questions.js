@@ -285,7 +285,139 @@ var questions = [
             correct: true
           }
         ]
-     }
+     },
+     {
+      qtitle:"What does DR stand for?",
+      qname:"acronym",
+      qanswers:[
+        {
+          answer:"Database replication",
+          correct:false
+        },
+        {
+          answer:"Disaster recovery",
+          correct:true
+        },
+        {
+          answer:"Delete recovery",
+          correct:false
+        },
+        {
+          answer: "Database restore",
+          correct: false
+        }
+      ]
+    },
+     {
+      qtitle:"What does CTE stand for?",
+      qname:"acronym",
+      qanswers:[
+        {
+          answer:"Common table expression",
+          correct:true
+        },
+        {
+          answer:"Compile table extract",
+          correct:false
+        },
+        {
+          answer:"Count of table expression",
+          correct:false
+        },
+        {
+          answer: "Count table elements",
+          correct: false
+        }
+      ]
+    },
+     {
+      qtitle:"What does ETL stand for?",
+      qname:"acronym",
+      qanswers:[
+        {
+          answer:"Execute, transform, load",
+          correct:false
+        },
+        {
+          answer:"Extract, trigger, load",
+          correct:false
+        },
+        {
+          answer:"Execute, trigger, load",
+          correct:false
+        },
+        {
+          answer: "Extract, transform, load",
+          correct: true
+        }
+      ]
+   },
+  {
+    qtitle:"What does DDL stand for?",
+    qname:"acronym",
+    qanswers:[
+      {
+        answer:"Data derivation language",
+        correct:false
+      },
+      {
+        answer:"Data definition language",
+        correct:true
+      },
+      {
+        answer:"Dynamic data language",
+        correct:false
+      },
+      {
+        answer: "Detailed data language",
+        correct: false
+      }
+    ]
+  },
+     {
+      qtitle:"What does DDL stand for?",
+      qname:"acronym",
+      qanswers:[
+        {
+          answer:"Data derivation language",
+          correct:false
+        },
+        {
+          answer:"Data definition language",
+          correct:true
+        },
+        {
+          answer:"Dynamic data language",
+          correct:false
+        },
+        {
+          answer: "Detailed data language",
+          correct: false
+        }
+      ]
+   },
+     {
+      qtitle:"What does SQL stand for?",
+      qname:"acronym",
+      qanswers:[
+        {
+          answer:"Structured Query List",
+          correct:false
+        },
+        {
+          answer:"Simple Query Language",
+          correct:false
+        },
+        {
+          answer:"Simple Query List",
+          correct:false
+        },
+        {
+          answer: "Structured Query Language",
+          correct: true
+        }
+      ]
+   }
 ]
 
 var questionselement = document.getElementById("questions")
