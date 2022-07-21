@@ -16,7 +16,7 @@ var questions = [
             correct:false
           },
           {
-            answer: "exe",
+            answer: "tsv",
             correct:false
           }
         ]
