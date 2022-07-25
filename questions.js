@@ -1,5 +1,115 @@
 var questions = [
     {
+      qtitle:"Which of the following does this best describe? Data warehousing solution that is used for large scale queries and big data analytics",
+      qname:"Azure_Tools",
+      qanswers:[
+        {
+          answer:"PowerBI",
+          correct:false
+        },
+        {
+          answer:"Azure Databricks",
+          correct:false
+        },
+        {
+          answer:"Azure Data Factory",
+          correct:false
+        },
+        {
+          answer: "Azure Synapse Analytics",
+          correct:true
+        }
+      ]
+    },
+    {
+      qtitle:"Which of the following does this best describe? Platform based on Apache Spark clusters that will allow you to create big data workflows.",
+      qname:"Azure_Tools",
+      qanswers:[
+        {
+          answer:"PowerBI",
+          correct:false
+        },
+        {
+          answer:"Azure Databricks",
+          correct:true
+        },
+        {
+          answer:"Azure Data Factory",
+          correct:false
+        },
+        {
+          answer: "Azure Synapse Analytics",
+          correct:false
+        }
+      ]
+    },
+    {
+      qtitle:"Which of the following does this best describe? Platform that can visual data using Python, R, Scala & SQL.",
+      qname:"Azure_Tools",
+      qanswers:[
+        {
+          answer:"PowerBI",
+          correct:false
+        },
+        {
+          answer:"Azure Databricks",
+          correct:true
+        },
+        {
+          answer:"Azure Data Factory",
+          correct:false
+        },
+        {
+          answer: "Azure Synapse Analytics",
+          correct:false
+        }
+      ]
+    },
+    {
+      qtitle:"Which of the following does this best describe? Platform that can store multiple data format types for consumption, up to petaByte.",
+      qname:"Azure_Tools",
+      qanswers:[
+        {
+          answer:"PowerBI",
+          correct:false
+        },
+        {
+          answer:"Azure Databricks",
+          correct:false
+        },
+        {
+          answer:"Azure Data Factory",
+          correct:false
+        },
+        {
+          answer: "Azure Data Lake",
+          correct:true
+        }
+      ]
+    },
+    {
+      qtitle:"Which of the following does this best describe? Cloud service that allows etl of big data. It stores pipeline data for 45 days.",
+      qname:"Azure_Tools",
+      qanswers:[
+        {
+          answer:"PowerBI",
+          correct:false
+        },
+        {
+          answer:"Azure Databricks",
+          correct:false
+        },
+        {
+          answer:"Azure Data Factory",
+          correct:true
+        },
+        {
+          answer: "Azure Data Lake",
+          correct:false
+        }
+      ]
+    },
+    {
         qtitle:"Which file type would you use to perform write operations on all columns of your data?",
         qname:"file_format",
         qanswers:[
