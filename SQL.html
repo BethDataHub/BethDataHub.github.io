@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="BethDataHub.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+  <title>My Page</title>
+</head>
+<body>
+  <div id="header-container"></div>
 
-<header>
-    <div id="SQL" class = "title">
-        <a href="index.html"><h1 title="This is my name">BETHANY MARSHALL</h1></a>
-    </div>
-    <div class="topnav">
-        <a href="index.html"><i class="fa fa-home fa-fw"></i></a>
-        <a target="_blank" href="https://github.com/BethDataHub"><i class="fa fa-github"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/be-thanymarshall"><i class="fa fa-linkedin"></i></a>
-        <a href="mailto:bethdatahub@outlook.com"><i class="fa fa-envelope-o"></i></a>
-    </div>
-</header>
+  <script>
+    // Load the header HTML content
+    var headerHTML = document.getElementById('header-container');
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'header.html');
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        headerHTML.innerHTML = xhr.responseText;
+      }
+    };
+    xhr.send();
+  </script>
 
-<p>Test New Page</p>
+<script>
+  function toggleSidebar() {
+    var sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('active');
+  }
+</script>
 
+  <p>This is the main page content.</p>
 </body>
 </html>

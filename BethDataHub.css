@@ -126,3 +126,89 @@ questions {
     color: white;
     font-family: Georgia, serif
   }
+
+python_questions {
+  text-align: -webkit-center;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+  .quiz {
+    overflow: hidden;
+    background-color: var(--quizbackground);
+    padding: 20px;
+    width: fit-content;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+  .quiz form {
+      padding-top: 15px;
+  }
+
+  .quiz label {
+    color: var(--lightermaincolor);
+    padding-left: 5px;
+    font-family: Georgia, serif
+  }
+
+  .quiz input[type='radio'] {
+    accent-color: #ee0d1f;
+  }
+  .correct input[type='radio'] {
+    accent-color: #88ff72;
+  }
+
+  .quiz qtitle {
+    text-align: left;
+    color: white;
+    font-family: Georgia, serif
+  }
+
+
+  #menu-icon {
+    position: fixed;
+    top: 30px; 
+    left: 30px;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  #menu-icon .bar1,
+  #menu-icon .bar2,
+  #menu-icon .bar3 {
+    background-color: var(--lightermaincolor);
+    width: 100%;
+    height: 4px;
+    margin-top: 5px;
+  }
+
+  #sidebar-menu {
+    display: none;
+  }
+  
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: var(--lightbackgroundcolor);
+    z-index: 1;
+  }
+
+  #sidebar-space {
+    position: fixed;
+    top: 0;
+    left: 300px;
+    height: 100vh;
+    width: calc(100vw - 300px);
+  }
+
+  #sidebar-menu.active {
+    display: block;
+  }
