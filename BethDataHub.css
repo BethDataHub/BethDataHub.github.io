@@ -28,6 +28,7 @@
   header {
     background-color: var(--headercolor);
     padding-bottom: 5rem;
+    left: 50%
   }
   
   .title a h1 {
@@ -41,6 +42,7 @@
       margin-top: 0;
       margin-bottom: 0;
       font-size: 5rem;
+      left: 50%
   }
   
   .title a {
@@ -55,6 +57,7 @@
       padding-top: 2rem;
       width: 100%;
       text-align: center;
+      left: 50%
     }
     
     /* Navbar links */
@@ -78,14 +81,18 @@
       text-align: left;
       margin-left: 1rem;
       color: violet;
+      left: 50%
   }
   
   p {
-      text-align: left;
-      margin-left: 2rem;
       color: white;
-      font-family: Georgia, serif
-  }
+      font-family: Georgia, serif;
+      left: 50%;
+      top: 50%;
+      text-align: center;
+      font-size: 18px;
+      font-size-adjust: 0.5;
+  } 
 
 
 questions {
@@ -191,6 +198,11 @@ python_questions {
     display: none;
   }
   
+  /* Links - change color on hover */
+  #sidebar-menu a:hover {
+    color: var(--accentcolor);
+  }
+  
   #sidebar {
     position: fixed;
     top: 0;
@@ -212,3 +224,6 @@ python_questions {
   #sidebar-menu.active {
     display: block;
   }
+
+
+  
