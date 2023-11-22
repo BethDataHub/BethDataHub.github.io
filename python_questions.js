@@ -46,24 +46,24 @@ var questions = [
       ]
   },
   {
-      qtitle: "What is the correct syntax for defining a function with 2 parameters in Python?",
+      qtitle: "What is the correct syntax for defining a function with 2 arguments in Python?",
       qname: "python_questions",
       qstatus: "enabled",
       qanswers: [
           {
-              answer: "my_function(parameter1, parameter2) {}",
+              answer: "my_func(arg1, arg2){}",
               correct: false
           },
           {
-              answer: "def my_function():\n        parameter1 = 10\n        parameter2 = 20",
+              answer: "def my_func(): arg1=10 arg2=20",
               correct: false
           },
           {
-              answer: "function my_function(parameter1, parameter2):\n        # function code",
+              answer: "function my_func(arg1, arg2):",
               correct: false
           },
           {
-              answer: "def my_function(parameter1, parameter2):\n        # function code",
+              answer: "def my_func(arg1, arg2):",
               correct: true
           }
       ]
