@@ -25,7 +25,7 @@ var questions = [
   {
       qtitle: "What data type is the variable `number` in the following code?\n<pre>\nnumber = 10\n</pre>",
       qname: "python_questions",
-      qstatus: "disabled",
+      qstatus: "enabled",
       qanswers: [
           {
               answer: "Integer",
@@ -46,9 +46,9 @@ var questions = [
       ]
   },
   {
-      qtitle: "What is the correct syntax for defining a function in Python?",
+      qtitle: "What is the correct syntax for defining a function with 2 parameters in Python?",
       qname: "python_questions",
-      qstatus: "disabled",
+      qstatus: "enabled",
       qanswers: [
           {
               answer: "my_function(parameter1, parameter2) {}",
@@ -71,7 +71,7 @@ var questions = [
   {
       qtitle: "What is the correct way to create a list in Python?",
       qname: "python_questions",
-      qstatus: "disabled",
+      qstatus: "enabled",
       qanswers: [
           {
               answer: "my_list = (1, 2, 3)",
@@ -92,9 +92,9 @@ var questions = [
       ]
   },
   {
-    qtitle: "Which of the following operators is used for string concatenation in Python?\n<pre>\na + b\n</pre>",
+    qtitle: "Which of the following operators is used for string concatenation in Python?",
     qname: "python_questions",
-    qstatus: "disabled",
+    qstatus: "enabled",
     qanswers: [
         {
             answer: "+",
@@ -117,76 +117,95 @@ var questions = [
   {
     qtitle: "What is the correct way to create a variable named 'message' and assign the value 'Hello' to it?",
     qname: "Variables",
-    qstatus: "disabled",
+    qstatus: "enabled",
     qanswers: [
       {
-        answer: "message = 'Hello';",
+        answer: "message = Hello",
+        correct: false
+      },
+      {
+        answer: 'message "Hello"',
+        correct: false
+      },
+      {
+        answer: "message = 'Hello'",
         correct: true
       },
       {
-        answer: "message = Hello;",
+        answer: "message := Hello",
         correct: false
+      }
+    ]
+  },  
+  {
+    qtitle: "What is the correct way to access the second element of a list named 'numbers'?",
+    qname: "Lists",
+    qstatus: "enabled",
+    qanswers: [
+      {
+      answer: "numbers[2]",
+      correct: false
       },
       {
-        answer: 'message "Hello";',
-        correct: false
+      answer: "numbers[1]",
+      correct: true
       },
       {
-        answer: "message := Hello;",
-        correct: false
+      answer: "numbers.get(1)",
+      correct: false
+      },
+      {
+      answer: "numbers.index(1)",
+      correct: false
       }
     ]
   },
   {
-    qtitle: "What is the correct way to add two numbers?",
-    qname: "Number_Addition",
-    qstatus: "disabled",
+    qtitle: "What is the correct way to create a dictionary named 'user' and add the key-value pairs 'name' : 'John' and 'email' : 'john@example.com' to it?",
+    qname: "Dictionaries",
+    qstatus: "enabled",
     qanswers: [
       {
-        answer: "num1 + num2",
-        correct: true
+      answer: "user = {'name' : 'John', 'email' : 'john@example.com'}",
+      correct: true
       },
       {
-        answer: "num1 - num2",
-        correct: false
+      answer: "user = {name : 'John', email : 'john@example.com'}",
+      correct: false
       },
       {
-        answer: "num1 * num2",
-        correct: false
+      answer: "user = (name = 'John', email = 'john@example.com')",
+      correct: false
       },
       {
-        answer: "num1 / num2",
-        correct: false
+      answer: "user = ['name' : 'John', 'email' : 'john@example.com']",
+      correct: false
       }
     ]
   },
-  
   {
-    qtitle: "What is the correct way to concatenate two strings?",
-    qname: "String_Concatenation",
-    qstatus: "disabled",
+    qtitle: "What is the correct way to access the value associated with the key 'email' in a dictionary named 'user'?",
+    qname: "Dictionaries",
+    qstatus: "enabled",
     qanswers: [
-      {
-        answer: "firstName + lastName",
-        correct: true
-      },
-      {
-        answer: "firstName + lastName",
-        correct: false
-      },
-      {
-        answer: "firstName lastName",
-        correct: false
-      },
-      {
-        answer: "firstName:=lastName",
-        correct: false
-      }
+    {
+    answer: "for ['email] in user",
+    correct: false
+    },
+    {
+    answer: "users['emails']",
+    correct: false
+    },
+    {
+    answer: "email.get('user')",
+    correct: false
+    },
+    {
+      answer: "user['email']",
+      correct: true
+    },
     ]
-  },
-  
-
-  
+  }  
 ];
 
 var questionselement = document.getElementById("questions");
